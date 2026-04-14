@@ -1,6 +1,4 @@
-/* =====================
-   RESET & VARIÁVEIS
-   ===================== */
+
    *, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
@@ -32,9 +30,7 @@
     --transition: 0.2s ease;
   }
   
-  /* =====================
-     BASE
-     ===================== */
+
   body {
     font-family: 'Segoe UI', Arial, sans-serif;
     background-color: var(--bg-page);
@@ -54,9 +50,7 @@
     object-fit: cover;
   }
   
-  /* =====================
-     HEADER
-     ===================== */
+
   .header {
     background-color: var(--bg-header);
     border-bottom: 1px solid var(--border);
@@ -115,18 +109,14 @@
     color: #fff;
   }
   
-  /* =====================
-     MAIN / LAYOUT
-     ===================== */
+
   .main {
     max-width: 1200px;
     margin: 0 auto;
     padding: 2rem 1.5rem;
   }
   
-  /* =====================
-     BUSCA E FILTROS
-     ===================== */
+
   .search-section {
     display: flex;
     gap: 12px;
@@ -173,9 +163,7 @@
     box-shadow: 0 0 0 3px rgba(229, 9, 20, 0.2);
   }
   
-  /* =====================
-     SEÇÃO DE FILMES
-     ===================== */
+
   .section-title {
     font-size: 1.25rem;
     font-weight: 600;
@@ -189,9 +177,7 @@
     gap: 1.25rem;
   }
   
-  /* =====================
-     CARD DE FILME
-     ===================== */
+
   .movie-card {
     background: var(--bg-card);
     border-radius: var(--radius-lg);
@@ -215,9 +201,7 @@
     to   { opacity: 1; transform: translateY(0); }
   }
   
-  /* =====================
-     POSTER
-     ===================== */
+
   .movie-card__poster {
     position: relative;
     aspect-ratio: 2 / 3;
@@ -233,9 +217,7 @@
     transform: scale(1.05);
   }
   
-  /* =====================
-     BOTÃO FAVORITO
-     ===================== */
+
   .btn-favorite {
     position: absolute;
     top: 8px;
@@ -274,9 +256,7 @@
     100% { transform: scale(1); }
   }
   
-  /* =====================
-     INFO DO CARD
-     ===================== */
+
   .movie-card__info {
     padding: 12px;
   }
