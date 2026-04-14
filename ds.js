@@ -78,7 +78,7 @@ const movies = [
     },
 
     {
-      id: 9,
+      id: 8,
       title: "Wicked: Parte 2",
       year: 2026,
       duration: "A confirmar",
@@ -89,7 +89,7 @@ const movies = [
       description: "A conclusão da saga de Elphaba e Glinda em Oz, com Cynthia Erivo e Ariana Grande. Prometido como o maior espetáculo musical do ano.",
     },
     {
-      id: 10,
+      id: 9,
       title: "Clayface",
       year: 2026,
       duration: "A confirmar",
@@ -100,7 +100,7 @@ const movies = [
       description: "Uma criatura feita de argila mágica assombra Gotham, alternando entre vilão e aliado do Batman. Parte do novo universo DC Studios.",
     },
     {
-      id: 11,
+      id: 10,
       title: "Minions 3",
       year: 2026,
       duration: "A confirmar",
