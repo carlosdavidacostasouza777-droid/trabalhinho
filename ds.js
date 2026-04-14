@@ -1,4 +1,3 @@
-
 const movies = [
     {
       id: 1,
@@ -19,7 +18,7 @@ const movies = [
       genre: "acao",
       genreLabel: "Ação",
       rating: 5,
-      poster: "https://image.tmdb.org/t/p/w500/58D6ZAvOKxlHjyX9S8qNKSBE9s.jpg",
+      poster: "https://m.media-amazon.com/images/M/MV5BMTJhZGE3NmYtYTg0Ny00MWUzLWE0MmUtYTZjYTg1ZjVlMWRkXkEyXkFqcGc@._V1_QL75_UY281_CR18,0,190,281_.jpg",
       description: "Tom Holland volta como Peter Parker em uma nova fase. Após os eventos do último filme, Peter está sozinho e sem que ninguém saiba sua identidade.",
     },
     {
@@ -30,7 +29,7 @@ const movies = [
       genre: "animacao",
       genreLabel: "Animação",
       rating: 4,
-      poster: "https://image.tmdb.org/t/p/w500/qvktm0BHcnmDpgNoOa8XZXMqF4i.jpg",
+      poster: "https://images.nintendolife.com/8c1b96029652a/the-super-mario-galaxy-movie.original.jpg",
       description: "Mario e seus amigos partem em uma aventura intergaláctica. Com Chris Pratt, Anya Taylor-Joy e Jack Black. Estreou em 2 de abril de 2026.",
     },
     {
@@ -52,7 +51,7 @@ const movies = [
       genre: "ficcao",
       genreLabel: "Ficção Científica",
       rating: 5,
-      poster: "https://image.tmdb.org/t/p/w500/d5NXSklc4cBEjxAfMY8B9XvBzxp.jpg",
+      poster: "https://posterspy.com/wp-content/uploads/2025/08/dune3_deviant_diamonddead1.jpg",
       description: "Denis Villeneuve encerra sua trilogia épica. Paul Atreides enfrenta as consequências terríveis de sua ascensão ao poder messiânico. Estreia em 30 de julho de 2026.",
     },
     {
@@ -63,7 +62,7 @@ const movies = [
       genre: "terror",
       genreLabel: "Terror",
       rating: 3,
-      poster: "https://image.tmdb.org/t/p/w500/hek3PtzAoRTNeKGSPjsHkRXamiT.jpg",
+      poster: "https://hellosidney.com/wp-content/uploads/2026/01/Scream-7-Final-Poster-scaled.jpg",
       description: "Um novo Ghostface surge na cidade onde Sidney Prescott construiu uma nova vida. Sua filha se torna o próximo alvo.",
     },
     {
@@ -74,20 +73,10 @@ const movies = [
       genre: "fantasia",
       genreLabel: "Fantasia",
       rating: 4,
-      poster: "https://image.tmdb.org/t/p/w500/lWlsZIsrGVWHtBeoOeLYIYDQBh5.jpg",
+      poster: "https://media.fstatic.com/1quA8KH_iPy8Mq4JNxepNbDyhP8=/322x478/smart/filters:format(webp)/media/movies/covers/2021/01/24c3dcbc34031deb1ff3cb40d78e87fb8fd95dc6r1-800-1100v2_hq.jpg",
       description: "Greta Gerwig dirige a nova adaptação do clássico de C.S. Lewis. O filme chega primeiro à Netflix antes de ir para os cinemas.",
     },
-    {
-      id: 8,
-      title: "Jumanji 4",
-      year: 2026,
-      duration: "A confirmar",
-      genre: "acao",
-      genreLabel: "Ação",
-      rating: 4,
-      poster: "https://image.tmdb.org/t/p/w500/mXLOHHc1Zeuwsl4xYKjKh2280oL.jpg",
-      description: "O quarto e último capítulo da franquia. Dwayne Johnson, Jack Black e Karen Gillan retornam para a aventura final dentro do jogo.",
-    },
+
     {
       id: 9,
       title: "Wicked: Parte 2",
@@ -107,7 +96,7 @@ const movies = [
       genre: "acao",
       genreLabel: "Ação",
       rating: 3,
-      poster: "https://image.tmdb.org/t/p/w500/d2lkpNEpCVNrmByQ6G0IQFpXDpv.jpg",
+      poster: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f452aa2c-0c64-4bbf-b065-942b8dbda8bb/djobnb6-81489665-9d3b-4de6-8da2-a7629ba21822.png/v1/fill/w_1280,h_1929,q_80,strp/clayface____batman_villain_standalone_movie__by_diamonddead_art_djobnb6-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTkyOSIsInBhdGgiOiJcL2ZcL2Y0NTJhYTJjLTBjNjQtNGJiZi1iMDY1LTk0MmI4ZGJkYThiYlwvZGpvYm5iNi04MTQ4OTY2NS05ZDNiLTRkZTYtOGRhMi1hNzYyOWJhMjE4MjIucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.v9d3cAKgjDo7NNc_BhDljx_6RFp9wNF2iFS77O88KiQ",
       description: "Uma criatura feita de argila mágica assombra Gotham, alternando entre vilão e aliado do Batman. Parte do novo universo DC Studios.",
     },
     {
@@ -118,22 +107,12 @@ const movies = [
       genre: "animacao",
       genreLabel: "Animação",
       rating: 4,
-      poster: "https://image.tmdb.org/t/p/w500/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg",
+      poster: "https://image.tmdb.org/t/p/original/z4U19BvdwjjmqzprVTuuHnhGyJR.jpg",
       description: "Gru e os Minions voltam em mais uma aventura caótica. Um novo vilão dos anos 80 ameaça o mundo e só a equipe mais improvável pode pará-lo.",
     },
-    {
-      id: 12,
-      title: "Spielberg: Contato",
-      year: 2026,
-      duration: "A confirmar",
-      genre: "ficcao",
-      genreLabel: "Ficção Científica",
-      rating: 5,
-      poster: "https://image.tmdb.org/t/p/w500/eSkmdt8JHDGeVGCATRbTnKKXpgC.jpg",
-      description: "Steven Spielberg retorna à ficção científica com Emily Blunt e Josh O'Connor. Uma abordagem moderna sobre o primeiro contato com vida extraterrestre. Estreia em 11 de junho de 2026.",
-    },
+
   ];
-  
+
 
   const FALLBACK_COLORS = {
     acao:     "1a0033",
@@ -209,25 +188,6 @@ const movies = [
           <button class="btn-details" data-id="${movie.id}">Ver detalhes</button>
         </div>
       `;
-  
-      card.querySelector(".btn-favorite").addEventListener("click", (e) => {
-        e.stopPropagation();
-        toggleFavorite(movie.id, e.currentTarget);
-      });
-  
-      card.querySelector(".btn-details").addEventListener("click", (e) => {
-        e.stopPropagation();
-        openModal(movie);
-      });
-  
-      card.querySelector(".btn-play").addEventListener("click", (e) => {
-        e.stopPropagation();
-        openModal(movie);
-      });
-  
-      card.querySelector(".movie-card__poster").addEventListener("click", (e) => {
-        createRipple(e, card.querySelector(".movie-card__poster"));
-      });
   
       moviesGrid.appendChild(card);
     });
@@ -317,10 +277,14 @@ const movies = [
   
   function closeModal() {
     if (!activeModal) return;
-    activeModal.classList.remove("visible");
-    activeModal.addEventListener("transitionend", () => activeModal?.remove(), { once: true });
+    const modal = activeModal;
+    modal.classList.remove("visible");
     activeModal = null;
     document.removeEventListener("keydown", handleEsc);
+    modal.addEventListener("transitionend", () => {
+      modal.remove();
+      moviesGrid.offsetHeight;
+    }, { once: true });
   }
   
   function handleEsc(e) {
@@ -341,7 +305,7 @@ const movies = [
       btn.textContent = adding ? "♥" : "♡";
       if (adding) {
         btn.classList.remove("active");
-        void btn.offsetWidth;
+        void btn.offsetHeight;
         btn.classList.add("active");
       }
     }
@@ -366,6 +330,41 @@ const movies = [
     });
   }
   
+  
+  // Event delegation for buttons and ripple
+  moviesGrid.addEventListener('click', (e) => {
+    const favoriteBtn = e.target.closest('.btn-favorite');
+    if (favoriteBtn) {
+      e.stopPropagation();
+      const id = parseInt(favoriteBtn.dataset.id);
+      const movie = movies.find(m => m.id === id);
+      toggleFavorite(id, favoriteBtn);
+      return;
+    }
+  
+    const detailsBtn = e.target.closest('.btn-details');
+    if (detailsBtn) {
+      e.stopPropagation();
+      const id = parseInt(detailsBtn.dataset.id);
+      const movie = movies.find(m => m.id === id);
+      openModal(movie);
+      return;
+    }
+  
+    const playBtn = e.target.closest('.btn-play');
+    if (playBtn) {
+      e.stopPropagation();
+      const id = parseInt(playBtn.dataset.id);
+      const movie = movies.find(m => m.id === id);
+      openModal(movie);
+      return;
+    }
+  
+    const poster = e.target.closest('.movie-card__poster img');
+    if (poster) {
+      createRipple(e, e.target.closest('.movie-card__poster'));
+    }
+  });
   
   navLinks.forEach((link) => {
     link.addEventListener("click", (e) => {
